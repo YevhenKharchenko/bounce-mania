@@ -1,0 +1,70 @@
+.characters-section {
+  padding-bottom: 80px;
+
+  @include media(desktop) {
+    padding-bottom: 150px;
+  }
+}
+
+.characters-section-wrapper {
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+
+  @include media(desktop) {
+    max-width: 1440px;
+  }
+}
+
+.characters-container {
+  padding: 0;
+
+  @include media(desktop) {
+    padding: 0 80px;
+  }
+}
+
+.characters-swiper-container {
+  max-width: 305px;
+  margin-left: auto;
+  margin-right: auto;
+  visibility: hidden;
+
+  @include media(desktop) {
+    max-width: 1440px;
+  }
+}
+
+.characters-swiper-container.show {
+  visibility: visible;
+}
+
+.characters-slide {
+  max-width: 305px;
+}
+
+.characters-picture-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.characters-title {
+  font-family: 'Chewy', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #f70;
+  margin-bottom: 12px;
+}
+
+.characters-text {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #4a2b5f;
+}

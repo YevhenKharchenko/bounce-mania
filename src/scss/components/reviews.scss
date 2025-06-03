@@ -1,0 +1,159 @@
+.reviews-section {
+  padding-bottom: 80px;
+
+  @include media(desktop) {
+    padding-bottom: 150px;
+  }
+}
+
+.reviews-section-wrapper {
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+
+  @include media(desktop) {
+    max-width: 1440px;
+    overflow: visible;
+    position: relative;
+  }
+}
+
+.reviews-container {
+  padding-left: 0;
+  padding-right: 0;
+
+  @include media(desktop) {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+.reviews-bg-img {
+  margin-bottom: 22px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    margin: 0;
+    position: absolute;
+    bottom: -21px;
+    left: 80px;
+  }
+}
+
+.reviews-swiper-container {
+  max-width: 305px;
+  margin-left: auto;
+  margin-right: auto;
+  visibility: hidden;
+
+  @include media(desktop) {
+    display: none;
+  }
+}
+
+.reviews-swiper-container.show {
+  visibility: visible;
+}
+
+.reviews-slide {
+  max-width: 305px;
+  border: 2px solid #ff5ca2;
+  border-radius: 18px;
+  padding: 28px 22px;
+  min-height: 209px !important;
+  display: flex !important;
+  flex-direction: column;
+}
+
+.reviews-avatar-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.reviews-name {
+  font-family: 'Chewy', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #f70;
+}
+
+.reviews-text {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #4a2b5f;
+}
+
+.reviews-list-desk {
+  display: none;
+
+  @include media(desktop) {
+    max-width: 953px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    margin-left: auto;
+    gap: 19px;
+  }
+}
+
+.reviews-list-item-desk {
+  max-width: 305px;
+  border: 2px solid #ff5ca2;
+  border-radius: 18px;
+  padding: 28px 22px;
+  min-height: 209px !important;
+  display: flex !important;
+  flex-direction: column;
+}
+
+.reviews-big-red-candy-img {
+  display: none;
+
+  @include media(desktop) {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 80px;
+  }
+}
+
+.reviews-small-blue-candy-img {
+  display: none;
+
+  @include media(desktop) {
+    display: block;
+    position: absolute;
+    top: 48px;
+    left: 352px;
+  }
+}
+
+.reviews-big-blue-candy-img {
+  display: none;
+
+  @include media(desktop) {
+    display: block;
+    position: absolute;
+    bottom: 47px;
+    left: 598px;
+  }
+}
+
+.reviews-small-red-candy-img {
+  display: none;
+
+  @include media(desktop) {
+    display: block;
+    position: absolute;
+    bottom: 29px;
+    left: 553px;
+  }
+}

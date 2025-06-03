@@ -1,0 +1,80 @@
+.features-bg-wrapper {
+  padding-bottom: 80px;
+
+  @include media(desktop) {
+    padding-bottom: 150px;
+  }
+}
+
+.features-container {
+  padding-left: 0;
+  padding-right: 0;
+
+  @include media(desktop) {
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    align-items: center;
+    align-items: center;
+    gap: 82px;
+  }
+}
+
+.features-bg-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 22px;
+
+  @include media(desktop) {
+    margin: 0;
+  }
+}
+
+.features-content-wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+
+  @include media(desktop) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @include media(desktop) {
+    max-width: 460px;
+  }
+}
+.features-list-item {
+  display: flex;
+  align-items: start;
+  gap: 12px;
+}
+
+.features-img {
+}
+
+.features-item-text-wrapper {
+}
+
+.features-item-title {
+  font-family: 'Chewy', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #f70;
+  margin-bottom: 8px;
+}
+
+.features-item-text {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #4a2b5f;
+}
