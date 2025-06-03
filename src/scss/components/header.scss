@@ -8,21 +8,19 @@
   z-index: 10;
 
   &.scrolled {
-    background: #f8dbeb;
+    background: #87def2;
 
     .nav-list-link {
-      color: #4a2b5f;
-
       &:hover,
       &.active {
-        color: #ff5ca2;
+        color: #f84200;
       }
     }
   }
 
   @include media(desktop) {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 38px;
+    padding-bottom: 38px;
   }
 }
 
@@ -60,12 +58,12 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #4a2b5f;
+  color: #002033;
   transition: all 0.3s ease-in-out;
 }
 
 .nav-list-link.active {
-  color: #ff5ca2;
+  color: #f84200;
 }
 
 .privacy-body .nav-list-link {

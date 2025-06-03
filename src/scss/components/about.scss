@@ -7,7 +7,7 @@
   padding-bottom: 80px;
 
   @include media(desktop) {
-    padding-bottom: 239px;
+    padding-bottom: 215px;
     max-width: 1440px;
     margin: 0 auto;
     position: relative;
@@ -19,11 +19,13 @@
   padding-right: 0;
 
   @include media(desktop) {
+    padding-left: 80px;
     padding-right: 80px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
     position: relative;
   }
 }
@@ -35,6 +37,17 @@
 
   @include media(desktop) {
     margin: 0;
+  }
+}
+
+.about-img-desk {
+  display: none;
+
+  @include media(desktop) {
+    display: block;
+    position: absolute;
+    right: 80px;
+    top: 65px;
   }
 }
 
@@ -59,50 +72,10 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #4a2b5f;
+  color: #002033;
   word-break: break-word;
 }
 
-.about-blue-candy-img {
-  display: none;
-
-  @include media(desktop) {
-    display: block;
-    position: absolute;
-    top: 100px;
-    left: 526px;
-  }
-}
-
-.about-bottom-blue-candy-img {
-  display: none;
-
-  @include media(desktop) {
-    display: block;
-    position: absolute;
-    bottom: 36px;
-    right: 299px;
-  }
-}
-
-.about-red-candy-img {
-  display: none;
-
-  @include media(desktop) {
-    display: block;
-    position: absolute;
-    top: 141px;
-    left: 567px;
-  }
-}
-
-.about-big-blue-candy-img {
-  display: none;
-
-  @include media(desktop) {
-    display: block;
-    position: absolute;
-    bottom: 22px;
-    right: 154px;
-  }
+.about-span {
+  font-weight: 700;
 }

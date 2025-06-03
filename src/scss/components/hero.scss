@@ -1,12 +1,9 @@
 .hero-section {
-  @include media(desktop) {
-    padding-bottom: 0px;
-  }
 }
 
 .hero-bg-wrapper {
-  padding-top: 130px;
-  padding-bottom: 9px;
+  padding-top: 96px;
+  padding-bottom: 504px;
   background-image: url(../img/hero/hero-bg-mob.jpg);
   background-repeat: no-repeat;
   background-position: top center;
@@ -16,9 +13,8 @@
 
   @include media(desktop) {
     background-image: url(../img/hero/hero-bg-desk.jpg);
-    padding-top: 0px;
-    padding-bottom: 0px;
-    height: 820px;
+    padding-top: 226px;
+    padding-bottom: 281px;
     max-width: 1440px;
   }
 }
@@ -26,47 +22,8 @@
 .hero-title-img {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 132px;
 
   @include media(desktop) {
-    display: none;
-  }
-}
-
-.hero-girl-img {
-  margin: 0 auto;
-
-  @include media(desktop) {
-    display: none;
-  }
-}
-
-.hero-apple-img {
-  position: absolute;
-  bottom: 26px;
-  left: 32px;
-
-  @include media(desktop) {
-    display: none;
-  }
-}
-
-.hero-left-ellipse-img {
-  position: absolute;
-  bottom: 233px;
-  left: 27px;
-
-  @include media(desktop) {
-    display: none;
-  }
-}
-
-.hero-right-ellipse-img {
-  position: absolute;
-  top: 347px;
-  right: 32px;
-
-  @include media(desktop) {
-    display: none;
+    margin-right: 0;
   }
 }
