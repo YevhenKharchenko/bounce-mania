@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="title"
+      content="Bounce Mania | Fast-Paced Platform Arcade Game"
+    />
+    <meta
+      name="description"
+      content="Jump, dodge, and dash through bouncing chaos in Bounce Mania. Easy to learn, hard to master—get in the zone!"
+    />
+    <meta
+      name="keywords"
+      content="Bounce Mania, Arcade Platformer, Reflex Game, One Tap Game, Mobile Arcade Game, Bounce Game, Neon Platformer"
+    />
+    <meta property="og:title" content="Bounce Mania – Tap, Jump, Conquer!" />
+    <meta
+      property="og:description"
+      content="Master your timing in the most dynamic mobile arcade game. Download Bounce Mania now and rise through the ranks!"
+    />
+    <meta property="og:url" content="https://twistbouncemania.com" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/png" href="/bounce-mania/favicon.png" />
+    <title>Bounce Mania</title>
+    
+    <script type="module" crossorigin src="/bounce-mania/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/bounce-mania/assets/vendor-addafc6c.js">
+    <link rel="stylesheet" href="/bounce-mania/assets/vendor-fef9b9da.css">
+    <link rel="stylesheet" href="/bounce-mania/assets/index-c93002ff.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container header-container">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#home">Home</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#about">About the Game</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#features">Features</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#play">How to Play</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#gallery">Gallery</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#reviews">Reviews</a>
+        </li>
+      </ul>
+      <button class="nav-btn" type="button" aria-label="Open mobile menu">
+        <svg class="menu-icon" width="48" height="48">
+          <use href="/bounce-mania/assets/sprite-ac862d77.svg#icon-menu"></use>
+        </svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+    <div class="context-menu">
+  <div class="context-container">
+    <div class="context-btn-wrapper">
+      <button class="close-btn" type="button" aria-label="Close mobile menu">
+        <svg class="close-icon" width="48" height="48">
+          <use href="/bounce-mania/assets/sprite-ac862d77.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
+    <nav class="context-nav">
+      <ul class="context-nav-list">
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html">Home</a>
+        </li>
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#about"
+            >About the Game</a
+          >
+        </li>
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#features">Features</a>
+        </li>
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#play">How to Play</a>
+        </li>
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#gallery">Gallery</a>
+        </li>
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#reviews">Reviews</a>
+        </li>
+      </ul>
+    </nav>
+    <img
+      class="context-small-ball-img"
+      src="/bounce-mania/assets/menu-small-ball-d701035b.png"
+      alt="Ball"
+      width="44"
+      height="43"
+      loading="lazy"
+    />
+    <img
+      class="context-big-ball-img"
+      src="/bounce-mania/assets/menu-big-ball-cfec2510.png"
+      alt="Ball"
+      width="84"
+      height="81"
+      loading="lazy"
+    />
+  </div>
+</div>
+
+    <main>
+      <section class="section hero-section" id="home">
+  <div class="hero-bg-wrapper">
+    <div class="container hero-container">
+      <picture>
+        <source
+          srcset="/bounce-mania/assets/hero-title-desk-fe0bd01e.png "
+          media="(min-width: 1440px)"
+          width="522"
+          height="313"
+        />
+        <source
+          srcset="/bounce-mania/assets/hero-title-mob-c5b2cc76.png "
+          width="335"
+          height="200"
+        />
+        <img
+          class="hero-title-img"
+          src="/bounce-mania/assets/hero-title-mob-c5b2cc76.png"
+          alt="Title"
+          width="335"
+          height="200"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
+      <section class="section about-section" id="about">
+  <div class="about-bg-wrapper">
+    <h2 class="section-title about-title">About the Game</h2>
+    <div class="container about-container">
+      <picture>
+        <source
+          srcset="/bounce-mania/assets/about-bg-desk-cb2f04d5.png "
+          media="(min-width: 1440px)"
+          width="325"
+          height="184"
+        />
+        <source
+          srcset="/bounce-mania/assets/about-bg-mob-81e5d613.png "
+          width="375"
+          height="212"
+        />
+        <img
+          class="about-bg-img"
+          src="/bounce-mania/assets/about-bg-mob-81e5d613.png"
+          alt="Screenshot of the game"
+          width="375"
+          height="212"
+          loading="lazy"
+        />
+      </picture>
+      <div class="about-content-wrapper">
+        <div class="about-text-wrapper">
+          <p class="about-text">
+            <span class="about-span">Bounce Mania</span> is a thrilling arcade
+            platformer that puts your reflexes to the test. Guide a bouncy ball
+            through trap-filled levels using simple one-tap controls. Jump over
+            spikes, avoid lasers, and keep the momentum going as you unlock
+            rewards and strive for the highest score. Perfect for quick sessions
+            with long-term replayability.
+          </p>
+        </div>
+      </div>
+      <img
+        class="about-img-desk"
+        src="/bounce-mania/assets/about-img-desk-9b81c057.png"
+        alt="Screenshot of the game"
+        width="325"
+        height="184"
+        loading="lazy"
+      />
+    </div>
+  </div>
+</section>
+
+      <section class="section features-section" id="features">
+  <div class="features-bg-wrapper">
+    <h2 class="section-title features-title">Features</h2>
+    <div class="container features-container">
+      <picture>
+        <source
+          srcset="/bounce-mania/assets/features-bg-desk-cbabeabc.png "
+          media="(min-width: 1440px)"
+          width="493"
+          height="328"
+        />
+        <source
+          srcset="/bounce-mania/assets/features-bg-mob-644dc184.png "
+          width="375"
+          height="249"
+        />
+        <img
+          class="features-bg-img"
+          src="/bounce-mania/assets/features-bg-mob-644dc184.png"
+          alt="Screenshot of the game"
+          width="375"
+          height="249"
+          loading="lazy"
+        />
+      </picture>
+      <div class="features-content-wrapper">
+        <ul class="features-list">
+          <li class="features-list-item">
+            <h3 class="features-item-title">Arcade Challenge</h3>
+            <p class="features-item-text">
+              Leap from platform to platform in rapid succession.
+            </p>
+          </li>
+          <li class="features-list-item">
+            <h3 class="features-item-title">Collect & Unlock</h3>
+            <p class="features-item-text">
+              Gather stars to unlock custom skins and boosters.
+            </p>
+          </li>
+          <li class="features-list-item">
+            <h3 class="features-item-title">Trap-Filled Levels</h3>
+            <p class="features-item-text">
+              Navigate lasers, spikes, and crumbling floors.
+            </p>
+          </li>
+          <li class="features-list-item">
+            <h3 class="features-item-title">Smooth Controls</h3>
+            <p class="features-item-text">
+              Simple tap-based mechanics for all skill levels.
+            </p>
+          </li>
+          <li class="features-list-item">
+            <h3 class="features-item-title">Pulse-Pounding Music</h3>
+            <p class="features-item-text">
+              Energetic tracks to keep the pace alive.
+            </p>
+          </li>
+        </ul>
+      </div>
+      <img
+        class="features-img-desk"
+        src="/bounce-mania/assets/features-img-desk-d4dd6510.png"
+        alt="Screenshot of the game"
+        width="493"
+        height="330"
+        loading="lazy"
+      />
+    </div>
+  </div>
+</section>
+
+      <section class="section play-section" id="play">
+  <div class="play-bg-wrapper">
+    <h2 class="section-title play-title">How to Play</h2>
+    <div class="container play-container">
+      <div class="play-content-wrapper">
+        <div class="play-list">
+          <div class="play-list-top-item">
+            <picture>
+              <source
+                srcset="/bounce-mania/assets/play-img1-desk-d96ad79c.png "
+                media="(min-width: 1440px)"
+                width="197"
+                height="197"
+              />
+              <source
+                srcset="/bounce-mania/assets/play-img1-mob-61a01442.png "
+                width="158"
+                height="158"
+              />
+              <img
+                class="play-img"
+                src="/bounce-mania/assets/play-img1-mob-61a01442.png"
+                alt="Screenshot of the game"
+                width="158"
+                height="158"
+                loading="lazy"
+              />
+            </picture>
+            <div class="play-item-text-wrapper">
+              <p class="play-item-text">
+                Tap once to bounce, time it right to land.
+              </p>
+            </div>
+            <img
+              class="play-top-left-ball-img"
+              src="/bounce-mania/assets/play-top-left-ball-353604de.png"
+              alt="Ball"
+              width="73"
+              height="71"
+            />
+          </div>
+          <div class="play-list-bottom-item">
+            <picture>
+              <source
+                srcset="/bounce-mania/assets/play-img2-desk-6b0a36fb.png "
+                media="(min-width: 1440px)"
+                width="197"
+                height="197"
+              />
+              <source
+                srcset="/bounce-mania/assets/play-img2-mob-1c0f505c.png "
+                width="158"
+                height="158"
+              />
+              <img
+                class="play-img"
+                src="/bounce-mania/assets/play-img2-mob-1c0f505c.png"
+                alt="Screenshot of the game"
+                width="114"
+                width="158"
+                height="158"
+              />
+            </picture>
+            <div class="play-item-bottom-text-wrapper">
+              <p class="play-item-text">
+                Collect stars while avoiding obstacles.
+              </p>
+            </div>
+            <img
+              class="play-bottom-left-ball-img"
+              src="/bounce-mania/assets/play-bottom-left-ball-096c10eb.png"
+              alt="Ball"
+              width="105"
+              height="102"
+            />
+          </div>
+        </div>
+        <div class="play-list">
+          <div class="play-list-top-item">
+            <picture>
+              <source
+                srcset="/bounce-mania/assets/play-img3-desk-6f692576.png "
+                media="(min-width: 1440px)"
+                width="197"
+                height="197"
+              />
+              <source
+                srcset="/bounce-mania/assets/play-img3-mob-cffce1ad.png "
+                width="158"
+                height="158"
+              />
+              <img
+                class="play-img"
+                src="/bounce-mania/assets/play-img3-mob-cffce1ad.png"
+                alt="Screenshot of the game"
+                width="158"
+                height="158"
+                loading="lazy"
+              />
+            </picture>
+            <div class="play-item-text-wrapper">
+              <p class="play-item-text">
+                Use your stars to unlock cool new looks.
+              </p>
+            </div>
+            <img
+              class="play-top-right-ball-img"
+              src="/bounce-mania/assets/play-top-right-ball-0a2cdca5.png"
+              alt="Ball"
+              width="58"
+              height="56"
+            />
+          </div>
+          <div class="play-list-bottom-item">
+            <picture>
+              <source
+                srcset="/bounce-mania/assets/play-img4-desk-75e7a036.png "
+                media="(min-width: 1440px)"
+                width="197"
+                height="197"
+              />
+              <source
+                srcset="/bounce-mania/assets/play-img4-mob-97f8cd94.png "
+                width="158"
+                height="158"
+              />
+              <img
+                class="play-img"
+                src="/bounce-mania/assets/play-img4-mob-97f8cd94.png"
+                alt="Screenshot of the game"
+                width="114"
+                width="158"
+                height="158"
+              />
+            </picture>
+            <div class="play-item-bottom-text-wrapper">
+              <p class="play-item-text">
+                Complete daily challenges to boost your score.
+              </p>
+            </div>
+            <img
+              class="play-bottom-right-ball-img"
+              src="/bounce-mania/assets/play-bottom-right-ball-b32e9ad5.png"
+              alt="Ball"
+              width="93"
+              height="90"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section gallery-section" id="gallery">
+  <h2 class="section-title gallery-title">Gallery</h2>
+  <div class="gallery-section-wrapper">
+    <div class="container gallery-container">
+      <div class="gallery-swiper-container">
+        <ul class="swiper-wrapper gallery-swiper-wrapper">
+          <li class="swiper-slide gallery-slide">
+            <img
+              src="/bounce-mania/assets/gallery-img1-2404ea23.png"
+              alt="Screenshot of the game"
+              width="305"
+              height="542"
+              loading="lazy"
+            />
+          </li>
+          <li class="swiper-slide gallery-slide">
+            <img
+              src="/bounce-mania/assets/gallery-img2-37609078.png"
+              alt="Screenshot of the game"
+              width="305"
+              height="542"
+              loading="lazy"
+            />
+          </li>
+          <li class="swiper-slide gallery-slide">
+            <img
+              src="/bounce-mania/assets/gallery-img3-f7a1d034.png"
+              alt="Screenshot of the game"
+              width="305"
+              height="542"
+              loading="lazy"
+            />
+          </li>
+          <li class="swiper-slide gallery-slide">
+            <img
+              src="/bounce-mania/assets/gallery-img4-8c646c8d.png"
+              alt="Screenshot of the game"
+              width="305"
+              height="542"
+              loading="lazy"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section reviews-section" id="reviews">
+  <h2 class="section-title reviews-title">Reviews</h2>
+  <div class="reviews-section-wrapper">
+    <div class="container reviews-container">
+      <div class="reviews-swiper-container">
+        <ul class="swiper-wrapper reviews-swiper-wrapper">
+          <li class="swiper-slide reviews-slide">
+            <img
+              class="reviews-stars-img"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAQCAYAAADgUdqDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFMSURBVHgB7ZftTcMwEIZfJxmgIyQT0AkoTEKYgDIBsEE3oEyAmKAwATABHoEBIOG1VaImSv0lq7/ukU6xbN+TSCcnF8BBv6uXjBoZEafbWcC9+sx4p2SBXIjT6TxaECa1vNQMk7xGBsTpdx4/IQXuDsY3yIE4vU41nbDHqcIVOmwmwjV+8KQu9TciEWe4U9mPTMnq9fY4/YcLI/hgfJqbUKhnHkKcic7KJvRoEY55B17YKLHjVc/sEWeis2CVX1mZB8TCHHWuX+aWxJnuHL4htgso8BiYfM0bb33bxBnvHLosO8GFgOTbkAcSZ5pz2vZq+CjxhTi0d4c4B6YFWcLHLxrEIc4I57ggJVaT7aYl06MZhTPEIM4o57ggPRZDoukUOjRqpZt916D3An/VxZnsrEaCjj8nwBtjc/gHyfE9u4Ythy1iEWdep3Ba/gDkdnaAX7bWBwAAAABJRU5ErkJggg=="
+              alt="Rating"
+              width="100"
+              height="16"
+              loading="lazy"
+            />
+            <p class="reviews-text">
+              "Love the color effects and level designs."
+            </p>
+            <div class="reviews-avatar-wrapper">
+              <img
+                class="reviews-avatar-img"
+                src="/bounce-mania/assets/reviews-avatar-jumper-673475a3.png"
+                alt="Avatar"
+                width="72"
+                height="72"
+                loading="lazy"
+              />
+              <h3 class="reviews-name">GlowJumper:</h3>
+            </div>
+          </li>
+          <li class="swiper-slide reviews-slide">
+            <img
+              class="reviews-stars-img"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAQCAYAAADgUdqDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJ6SURBVHgB7VdLbuJAEH2NvUAgJG4wcILxDQIbELvhBDEnGHKCkBMMNxjnBJ4dAhYkJwg5QXyEjARsAHtedTCyPTEficVomieVKLqL58Llel0GDiCa1RxaDReEyZyTycQZjUa1QzEFHN71aS9MrIpLwWROwLcs68X3/Wr+ZXPARFx+1Gjy4z4uAJM52R1uzFkqlXI58zukgPuE/x2XgMmc0JxPYkqpXE6VXdAtauMWIYZIJ9nHBo+qGbzjTJjMKfJUqVRuwzAcshDNzWYDytaMW/3lcvnY7XZTnEofXBarF+l2iu0QhGBOe5XEmWSAv/+YsZxyaPOG3yf4arutp1ar1RSH8iUFaYjPIr1HUTRnwV75ObT1DyK4OB3VHVmDf0aIg09izObEntPDRwF/sxt+xQHb7bZXKBQcumJfJJ7fGyzOTEsWn5RBSjdPQYgHPiGDvG2TOcfj8YA3VzjnLEQzK0sxRM7K5bIU1mF3PLTb7YFKJOYysZ84LaEeE/KOhZnMSelyKV3C+WlRksWg9Shnnqzvpyx9EV7s2IUYc3dKQqZzdjodT6SJrsMb/y27v1tzeHbcxcUQZMfeAMdg4Q3nITga8Z9zUr6C7AaLpdfYRSlOOxPn4Bi2qOM8GMtp27acDVgsFvPpdNqgr88q6ZxisThfr9fipzjTHWLhJsMpuhekVhS+4hwYzEk50pyUJ5/FiA9vGYvfWIwfMvJyukpxpgsSobpPhpMEra5ugrr24+TUCU/SlfMjXKmYU09RPNzrnKTq4tOkY2Q/xZmWrJAvPMAzbZh8K5URj5OIB5w1s185+QLJm/68Wq2GySlLxltOYR67w8UV/zb+AJAj4XTs3zIYAAAAAElFTkSuQmCC"
+              alt="Rating"
+              width="100"
+              height="16"
+              loading="lazy"
+            />
+            <p class="reviews-text">
+              "Perfect mobile game. Clean, fun, addicting."
+            </p>
+            <div class="reviews-avatar-wrapper">
+              <img
+                class="reviews-avatar-img"
+                src="/bounce-mania/assets/reviews-avatar-wizard-cc9d4b6d.png"
+                alt="Avatar"
+                width="72"
+                height="72"
+                loading="lazy"
+              />
+              <h3 class="reviews-name">TapWizard:</h3>
+            </div>
+          </li>
+          <li class="swiper-slide reviews-slide">
+            <img
+              class="reviews-stars-img"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAQCAYAAADgUdqDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFMSURBVHgB7ZftTcMwEIZfJxmgIyQT0AkoTEKYgDIBsEE3oEyAmKAwATABHoEBIOG1VaImSv0lq7/ukU6xbN+TSCcnF8BBv6uXjBoZEafbWcC9+sx4p2SBXIjT6TxaECa1vNQMk7xGBsTpdx4/IQXuDsY3yIE4vU41nbDHqcIVOmwmwjV+8KQu9TciEWe4U9mPTMnq9fY4/YcLI/hgfJqbUKhnHkKcic7KJvRoEY55B17YKLHjVc/sEWeis2CVX1mZB8TCHHWuX+aWxJnuHL4htgso8BiYfM0bb33bxBnvHLosO8GFgOTbkAcSZ5pz2vZq+CjxhTi0d4c4B6YFWcLHLxrEIc4I57ggJVaT7aYl06MZhTPEIM4o57ggPRZDoukUOjRqpZt916D3An/VxZnsrEaCjj8nwBtjc/gHyfE9u4Ythy1iEWdep3Ba/gDkdnaAX7bWBwAAAABJRU5ErkJggg=="
+              alt="Rating"
+              width="100"
+              height="16"
+              loading="lazy"
+            />
+            <p class="reviews-text">"So smooth and satisfying to play."</p>
+            <div class="reviews-avatar-wrapper">
+              <img
+                class="reviews-avatar-img"
+                src="/bounce-mania/assets/reviews-avatar-dash-6c1ee845.png"
+                alt="Avatar"
+                width="72"
+                height="72"
+                loading="lazy"
+              />
+              <h3 class="reviews-name">RetroDash:</h3>
+            </div>
+          </li>
+          <li class="swiper-slide reviews-slide">
+            <img
+              class="reviews-stars-img"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAQCAYAAADgUdqDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFMSURBVHgB7ZftTcMwEIZfJxmgIyQT0AkoTEKYgDIBsEE3oEyAmKAwATABHoEBIOG1VaImSv0lq7/ukU6xbN+TSCcnF8BBv6uXjBoZEafbWcC9+sx4p2SBXIjT6TxaECa1vNQMk7xGBsTpdx4/IQXuDsY3yIE4vU41nbDHqcIVOmwmwjV+8KQu9TciEWe4U9mPTMnq9fY4/YcLI/hgfJqbUKhnHkKcic7KJvRoEY55B17YKLHjVc/sEWeis2CVX1mZB8TCHHWuX+aWxJnuHL4htgso8BiYfM0bb33bxBnvHLosO8GFgOTbkAcSZ5pz2vZq+CjxhTi0d4c4B6YFWcLHLxrEIc4I57ggJVaT7aYl06MZhTPEIM4o57ggPRZDoukUOjRqpZt916D3An/VxZnsrEaCjj8nwBtjc/gHyfE9u4Ythy1iEWdep3Ba/gDkdnaAX7bWBwAAAABJRU5ErkJggg=="
+              alt="Rating"
+              width="100"
+              height="16"
+              loading="lazy"
+            />
+            <p class="reviews-text">"Absolutely hooked! Great time-killer."</p>
+            <div class="reviews-avatar-wrapper">
+              <img
+                class="reviews-avatar-img"
+                src="/bounce-mania/assets/reviews-avatar-fever-313010fa.png"
+                alt="Avatar"
+                width="72"
+                height="72"
+                loading="lazy"
+              />
+              <h3 class="reviews-name">PixelFever:</h3>
+            </div>
+          </li>
+          <li class="swiper-slide reviews-slide">
+            <img
+              class="reviews-stars-img"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAQCAYAAADgUdqDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFMSURBVHgB7ZftTcMwEIZfJxmgIyQT0AkoTEKYgDIBsEE3oEyAmKAwATABHoEBIOG1VaImSv0lq7/ukU6xbN+TSCcnF8BBv6uXjBoZEafbWcC9+sx4p2SBXIjT6TxaECa1vNQMk7xGBsTpdx4/IQXuDsY3yIE4vU41nbDHqcIVOmwmwjV+8KQu9TciEWe4U9mPTMnq9fY4/YcLI/hgfJqbUKhnHkKcic7KJvRoEY55B17YKLHjVc/sEWeis2CVX1mZB8TCHHWuX+aWxJnuHL4htgso8BiYfM0bb33bxBnvHLosO8GFgOTbkAcSZ5pz2vZq+CjxhTi0d4c4B6YFWcLHLxrEIc4I57ggJVaT7aYl06MZhTPEIM4o57ggPRZDoukUOjRqpZt916D3An/VxZnsrEaCjj8nwBtjc/gHyfE9u4Ythy1iEWdep3Ba/gDkdnaAX7bWBwAAAABJRU5ErkJggg=="
+              alt="Rating"
+              width="100"
+              height="16"
+              loading="lazy"
+            />
+            <p class="reviews-text">
+              "That feeling when you nail five jumps in a row—epic!"
+            </p>
+            <div class="reviews-avatar-wrapper">
+              <img
+                class="reviews-avatar-img"
+                src="/bounce-mania/assets/reviews-avatar-bouncer-37692b66.png"
+                alt="Avatar"
+                width="72"
+                height="72"
+                loading="lazy"
+              />
+              <h3 class="reviews-name">SpeedBouncer:</h3>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="controls">
+        <button
+          class="arrow-btn"
+          id="reviewsLeftArrow"
+          aria-label="Previous slide"
+        >
+          <svg class="arrow-icon" width="48" height="48">
+            <use href="/bounce-mania/assets/sprite-ac862d77.svg#icon-left-arrow"></use>
+          </svg>
+        </button>
+        <button
+          class="arrow-btn"
+          id="reviewsRightArrow"
+          aria-label="Next slide"
+        >
+          <svg class="arrow-icon" width="48" height="48">
+            <use href="/bounce-mania/assets/sprite-ac862d77.svg#icon-right-arrow"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="container footer-container">
+    <nav class="footer-nav">
+      <ul class="footer-list">
+        <li class="footer-list-item">
+          <a class="footer-link" href="./privacy-policy.html">Privacy Policy</a>
+        </li>
+        <li class="footer-list-item">
+          <a class="footer-link" href="./terms-and-conditions.html"
+            >Terms and Conditions</a
+          >
+        </li>
+        <li class="footer-list-item">
+          <a class="footer-link" href="./cookies-policy.html">Cookies Policy</a>
+        </li>
+      </ul>
+    </nav>
+    <p class="footer-text">© 2025 twistbouncemania.com. All rights reserved</p>
+  </div>
+</footer>
+
+    <section id="cookie-banner" class="cookie-banner-section">
+  <p class="cookie-banner-text">
+    We use cookies to improve your experience on our website. By browsing this
+    website, you agree to our use of cookies
+  </p>
+  <div class="cookie-banner-buttons">
+    <button class="cookie-accept-btn" id="cookie-accept">Accept Cookies</button>
+    <button class="cookie-decline-btn" id="cookie-decline">
+      Decline Cookies
+    </button>
+  </div>
+</section>
+
+
+    
+  </body>
+</html>
