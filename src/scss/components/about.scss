@@ -1,5 +1,9 @@
 .about-section {
   scroll-margin-top: 0px;
+
+  @include media(desktop) {
+    scroll-margin-top: 30px;
+  }
 }
 
 .about-bg-wrapper {

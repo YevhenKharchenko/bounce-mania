@@ -59,5 +59,6 @@ html {
   scroll-margin-top: 80px;
 
   @include media(desktop) {
+    scroll-margin-top: 110px;
   }
 }
